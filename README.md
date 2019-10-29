@@ -1,4 +1,4 @@
-# Dolibarr - Compta FABrique du loch
+# Dolibarr - FABrique du loch
 
 ### [Manuel pour les utilisateurs](docs/USER.md)
 
