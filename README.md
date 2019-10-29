@@ -1,6 +1,4 @@
-# tuto-dolibarr
-# Compta FABrique du loch
-Solution pour la compta de la FABrique du Loch
+# Dolibarr - Compta FABrique du loch
 
 ### [Manuel pour les utilisateurs](docs/USER.md)
 
