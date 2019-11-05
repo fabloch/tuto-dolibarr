@@ -5,17 +5,3 @@
 ### [Manuel pour les comptables](docs/COMPTA.md)
 
 ### [Manuel pour les développeurs (*accés réservé*)](https://github.com/fabloch/docker-dolibarr-plus/blob/master/docs/DEV.md)
-
-
-# Titre
-## Tutre
-###### Titre
-
-*italique*
-**gras**
-- liste
-- liste
-
-1. one
-2. two
-
