@@ -111,13 +111,14 @@
 
 ## <a name="serv-prod"></a> AJOUTER UN NOUVEAU SERVICE/PRODUIT
 + Aller dans le module "Produits/Services"
-+ CHoisir nouveau produit ou nouveau service
-+ Entrer une référence (ex: LAS pour découpe Laser)
++ Choisir nouveau produit ou nouveau service
++ Entrer une référence en débutant par un des préfixes for, loc...  (ex: "for_laser" pour formation découpe Laser)
 + Entrer le libellé du service/produit
-+ Choisir si besoin l'unité de temps
 + Choisir la catégorie/tag du service ou produit
 + Si besoin ajouter d'autres élément dans le champs "Description"
++ Choisir si besoin l'unité de temps
 + Entrer le prix de vente du produit/service
++ Choisir le code comptable à la vente (demander si besoin)
 + Cliquer sur créer
 
 ### Créer une nouvelle catégorie de services ou produits
