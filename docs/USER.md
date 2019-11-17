@@ -48,26 +48,19 @@
 + Si besoin modifier le "libellé"
 + Action complémentaire, cocher soit : 
     + choisir "*aucun*" pour l'instant  
-    + "*Création une écriture directe sur le compte bancaire ou caisse*" : pour une adhésion particulier sans facture ; va valider le paiement. Pas besoin de passer par la caisse. 
+    + "*Création une écriture directe sur le compte bancaire ou caisse*" : pour une adhésion particulier sans facture ; va valider le paiement. Pas besoin de passer par le module caisse. Compléter les infos suivantes : 
+        + Choisir compte Crédit Agricole
+        + Choisir le mode de réglement
+        + Indiquer la date du paiement
+        + Si chèque compléter numero et banque et si virement indiquer le numero
+    + "*Création facture sans paiement*" : pour une adhésion assoc, professionelle ou entreprise. Si besoin d'éditer une facture avant de recevoir le paiement. A réception du paiement il faudra valider la facture.
+    + "*Créer une facture avec paiement sur compte bancaire ou caisse*" : pour une adhésion assoc, professionelle ou  entreprise, avec paiement reçu.  Va éditer et valider la facture (attention pas de brouillon, incrémente directement le numéro de facture non modifiable). Compléter les infos suivantes : 
         + Choisir compte Crédit Agricole
         + Choisir le mode de réglement
         + Indiquer la date du paiement
         + Si chèque compléter numero et banque et si virement indiquer le numero
 
-    + "*Création facture sans paiement*" : pour une adhésion assoc, professionelle ou entreprise. Si besoin d'éditer une facture avant de recevoir le paiement. A réception du paiement il faudra valider la facture.
-    + "*Créer une facture avec paiement sur compte bancaire ou caisse*" : pour une adhésion assoc, professionelle ou  
-    entreprise, avec paiement reçu.  Va éditer et valider la facture (attention pas de brouillon, incrémente directement le numéro de facture non modifiable).
-    + Choisir compte Crédit Agricole
-        + Choisir le mode de réglement
-        + Indiquer la date du paiement
-        + Si chèque compléter numero et banque et si virement indiquer le numero
-
 + Valider en cliquant sur "créer cotisation"
-
-+ Choisir compte Crédit Agricole
-+ Choisir le mode de réglement
-+ Indiquer la date du paiement
-+ Si chèque compléter numero et banque et si virement indiquer le numero
 
 ### Comment rechercher un adhérent puis accéder/mofifier fiche
 + Se placer dans le module adhérent
@@ -95,7 +88,7 @@
 
 *Si besoin d'éditer une facture et pour tout client pro, il faut **impérativement** créer une facture [voir ici](#facture)*
 
-+ Lancer le module depuis l'onglet caisse de Dolibarr
++ Lancer le module depuis l'onglet "PdV de Dolibarr
 + S'identifier avec son login Dolibarr
 + Choisir le ou les services/produits vendus (taper le préfixe dans le champ "recherche" pour resteindre les choix)
 + Modifier la quantité si besoin
