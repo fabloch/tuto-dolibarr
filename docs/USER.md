@@ -110,8 +110,8 @@ Il faut avoir [créer un tiers](#tiers) auparavant.
 
 ### Pour une prestation (ou un produit)
 + Nota : il faut avoir créer le tiers préalablement (voir [ici](#tiers))
-+ Aller dans le module "facturation/paiement"
-+ Choisir "nouvelle facture "
++ Aller dans le module "facturation/paiement" et choisir "nouvelle facture "
++ **Ou** Aller dans le module "tiers", aller sur la fiche du tiers, cliquer sur l'onglet "client" puis cliquer sur le bouton "créer une facture"
 + Choisir le nom du client (tiers)
 + Choisir la date de Facturation
 + Laisser condition réglement "A réception"
