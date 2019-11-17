@@ -86,7 +86,7 @@
 ## <a name="caisse"></a> MODULE DE CAISSE
 **A utiliser pour les encaissements sans facture** (i.e un tiers générique est alors associé à chaque vente)
 
-*Si besoin d'éditer une facture et pour tout client pro, il faut **impérativement** créer une facture [voir ici](#facture)*
+*Si besoin d'éditer une facture et pour tout client pro, assoc, entreprise il faut **obligatoirement** créer une facture [voir ici](#facture)*
 
 + Lancer le module depuis l'onglet "PdV de Dolibarr
 + S'identifier avec son login Dolibarr
@@ -94,7 +94,8 @@
 + Modifier la quantité si besoin
 + Appliquer la remise si nécessaire
 + Cliquer sur "*ajouter cet article*"
-+ Cliquer sur le "mode de réglement" adéquate
++ Cliquer sur le "mode de réglement" adéquate (si espèce, entrer la somme reçu pour pouvoir valider)
++ Vérifier le résumer et cliquer sur "*valider facture*" (ne veut pas dire que ça cré une facture mais un ticket).
 
 ## <a name="facture"></a>CREER UNE FACTURE
 
