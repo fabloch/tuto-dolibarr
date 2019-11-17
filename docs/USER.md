@@ -137,7 +137,8 @@
 
 + Lancer le module depuis l'onglet caisse de Dolibarr
 + S'identifier avec son login Dolibarr
-+ Choisir le ou les services/produits vendus
++ Choisir le ou les services/produits vendus (taper le préfixe dans le champ "recherche" pour resteindre les choix)
 + Modifier la quantité si besoin
 + Appliquer la remise si nécessaire
-+ Valider
++ Cliquer sur "*ajouter cet article*"
++ Cliquer sur le "mode de réglement" adéquate
