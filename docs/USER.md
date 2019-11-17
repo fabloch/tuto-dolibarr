@@ -3,10 +3,10 @@
 # SOMMAIRE
 + [Gestion des adhérents](#adherent)
 + [Gestion des tiers](#tiers)
-+ [Exporter des adhérents](#export)
-+ [Créer une facture](#facture)
-+ [Ajouter un service/produit](#serv-prod)
 + [Module de caisse](#caisse)
++ [Créer une facture](#facture)
++ [Exporter des adhérents](#export)
++ [Ajouter un service/produit](#serv-prod)
 + A voir : gestion resssources; encaissement ; mailing
 
 ## INFO
@@ -63,6 +63,19 @@
 + Renseigner/modifier si besoin le nom du tier
 + Valider le tiers
 
+## <a name="caisse"></a> MODULE DE CAISSE
+**A utiliser pour les encaissements sans facture** (i.e un tiers générique est alors associé à chaque vente)
+
+*Si besoin d'éditer une facture et pour tout client pro, il faut **impérativement** créer une facture [voir ici](#facture)*
+
++ Lancer le module depuis l'onglet caisse de Dolibarr
++ S'identifier avec son login Dolibarr
++ Choisir le ou les services/produits vendus (taper le préfixe dans le champ "recherche" pour resteindre les choix)
++ Modifier la quantité si besoin
++ Appliquer la remise si nécessaire
++ Cliquer sur "*ajouter cet article*"
++ Cliquer sur le "mode de réglement" adéquate
+
 ## <a name="facture"></a>CREER UNE FACTURE
 ### Pour une adhésion
 + Créer puis valider le membre si besoin, sinon aller sur sa fiche
@@ -86,16 +99,6 @@
 + Ajout nouvelle ligne : ajouter le type de prestation (choix menu déroullant) et le montant. Valider en cliquant sur "ajouter". (si le produit/service n'existe pasdans la liste il faut le créer ou si c'ets un service/produit non redondant on peut saisir manuellement le libellé et le prix)
 + On peut alors cliquer sur "valider". Boite de dialogue pour confirmation avec indication numéro de facture (ATTENTION : va alors créer un numéro de facture, on ne peut alors plus supprimer la facture ; pour l'annuler il faudra obligatoirement faire une facture d'avoir)
 + Imprimer la facture
-
-## ENTRER UNE NOTE DE FRAIS
-+ Aller dans le module GRH
-+ Choisir Nouveau
-+ Remplir les champs puis valider
-
-## FAIRE UN DEVIS
-+ Aller dans le module "Commercial
-+ Choisir "nouvelle proposition"
-+ remplir les champs puis Valider
 
 ## <a name="export"></a>EXPORTER DES ADHERENTS
 + Aller dans l'onglet "Outils"
@@ -130,15 +133,12 @@
 + Choisir une couleur
 + Valider
 
-## <a name="caisse"></a> MODULE DE CAISSE
-**A utiliser pour les encaissements sans facture** (i.e un tiers générique est alors associé à chaque vente)
+## ENTRER UNE NOTE DE FRAIS
++ Aller dans le module GRH
++ Choisir Nouveau
++ Remplir les champs puis valider
 
-*Si besoin d'éditer une facture et pour tout client pro, il faut **impérativement** créer une facture [voir ici](#facture)*
-
-+ Lancer le module depuis l'onglet caisse de Dolibarr
-+ S'identifier avec son login Dolibarr
-+ Choisir le ou les services/produits vendus (taper le préfixe dans le champ "recherche" pour resteindre les choix)
-+ Modifier la quantité si besoin
-+ Appliquer la remise si nécessaire
-+ Cliquer sur "*ajouter cet article*"
-+ Cliquer sur le "mode de réglement" adéquate
+## FAIRE UN DEVIS
++ Aller dans le module "Commercial
++ Choisir "nouvelle proposition"
++ remplir les champs puis Valider
