@@ -19,19 +19,24 @@
 ### Comment ajouter un nouvel adhérent
 
 1. **Se positionner dans le module Adhérents** (cliquer sur l'icone adhérents située en haut à gauche)
-  + cliquer sur "Nouvel adhérent" dans la liste à gauche
+  + cliquer sur "*Nouvel adhérent*" dans la liste à gauche
   + Choisir le type d'adhérent : particulier, association, professionnel ou entreprise
   + Choisir la nature : physique ou moral
   + Entrer nom, prénom,  adresse, mail, téléphone
   + Cocher "oui" si mineur -18ans. Si oui, cocher oui si attestation parentale fournie
   + Cocher les différents choix pour réglement intérieur, autorisation image, attestation assurance et convocation AG...
   + Si besoin compléter les champs profession et ajouter des infos
-  + cliquer sur le bouton "créer adhérent" : la fiche est créée mais l'adhérent n'est pas encore validé (fiche à l'état de  
+  + Cliquer sur le bouton "*créer adhérent*" : la fiche est créée mais l'adhérent n'est pas encore validé (fiche à l'état de  
   brouillon)
 
-2. **Toujours valider un nouvel adhérent après l'avoir ajouter**
-  + Après création  de l'adhérent, on arrive sur sa fiche
-  + cliquer sur le bouton valider (confirmer par oui dans la boite de dialogue qui s'ouvre)
+2. **Valider le nouvel adhérent après l'avoir ajouté**
+  + Après création  de l'adhérent, on arrive sur sa fiche au stade brouillon.
+  + Cliquer sur le bouton "*Valider*" (confirmer par oui dans la boite de dialogue qui s'ouvre)
+
+### Pour les assoc, pro ou entreprise : créer un tiers 
+**Toujours** créer un tiers pour les associations, professionnel et entreprise afin de pouvoir éditer des factures.
++ Sur la fiche adhérent cliquer sur "*créer un tiers*"
++ Confirmer et valider
 
 ### Enregistrer paiement cotisation (1ere adhésion ou renouvellement)
 *A faire uniquement après avoir reçu l'intégralité du paiement.*
@@ -41,13 +46,28 @@
 + Pas besoin d'entrer la date de fin (automatiquement 1 an)
 + Entrer le montant de l'adhésion
 + Si besoin modifier le "libellé"
-+ Action complémentaire : choisir aucun pour l'instant  (qd config, possibilité créer écriture comptable direct avec paiement et en plus si besoin de générer automatiquement la facture : attention pas de brouillon, incrémente directement le numéro de facture non modifiable)
++ Action complémentaire, cocher soit : 
+    + choisir "*aucun*" pour l'instant  
+    + "*Création une écriture directe sur le compte bancaire ou caisse*" : pour une adhésion particulier sans facture ; va valider le paiement. Pas besoin de passer par la caisse. 
+        + Choisir compte Crédit Agricole
+        + Choisir le mode de réglement
+        + Indiquer la date du paiement
+        + Si chèque compléter numero et banque et si virement indiquer le numero
+
+    + "*Création facture sans paiement*" : pour une adhésion assoc, professionelle ou entreprise. Si besoin d'éditer une facture avant de recevoir le paiement. A réception du paiement il faudra valider la facture.
+    + "*Créer une facture avec paiement sur compte bancaire ou caisse*" : pour une adhésion assoc, professionelle ou  
+    entreprise, avec paiement reçu.  Va éditer et valider la facture (attention pas de brouillon, incrémente directement le numéro de facture non modifiable).
+    + Choisir compte Crédit Agricole
+        + Choisir le mode de réglement
+        + Indiquer la date du paiement
+        + Si chèque compléter numero et banque et si virement indiquer le numero
+
 + Valider en cliquant sur "créer cotisation"
 
-### Pour les assoc, pro ou entreprise : créer un tiers 
-Toujours créer un tiers pour les associations, professionnel et entreprise afin de pouvoir éditer des factures
-+ Sur la fiche adhérent cliquer sur "*créer un tiers*"
-+ Confirmer et valider
++ Choisir compte Crédit Agricole
++ Choisir le mode de réglement
++ Indiquer la date du paiement
++ Si chèque compléter numero et banque et si virement indiquer le numero
 
 ### Comment rechercher un adhérent puis accéder/mofifier fiche
 + Se placer dans le module adhérent
