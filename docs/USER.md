@@ -58,7 +58,7 @@
         + Choisir compte Crédit Agricole
         + Choisir le mode de réglement
         + Indiquer la date du paiement
-        + Si chèque compléter numero et banque et, si virement indiquer le numero
+        + Si chèque compléter emetteur, banque et numéro et, si virement indiquer le numéro
 
 + Valider en cliquant sur "créer cotisation"
 
@@ -90,12 +90,18 @@
 
 + Lancer le module depuis l'onglet "PdV de Dolibarr
 + S'identifier avec son login Dolibarr
++ Choisir le compte Crédit Agricole
++ Choisir le tier "Générique Caisse"
+
 + Choisir le ou les services/produits vendus (taper le préfixe dans le champ "recherche" pour resteindre les choix)
 + Modifier la quantité si besoin
 + Appliquer la remise si nécessaire
 + Cliquer sur "*ajouter cet article*"
 + Cliquer sur le "mode de réglement" adéquate (si espèce, entrer la somme reçu pour pouvoir valider)
-+ Vérifier le résumer et cliquer sur "*valider facture*"
++ Vérifier le résumer et indiquer en "*note*" : 
+        + Pour un chèque : émetteur, banque et numéro
+        + Hello assoc : numéro
++ Cliquer sur "*valider facture*"
 + Imprimer si besoin le ticket de caisse.
 
 ## <a name="facture"></a>CREER UNE FACTURE
