@@ -6,6 +6,7 @@
 + [Exporter des adhérents](#export)
 + [Créer une facture](#facture)
 + [Ajouter un service/produit](#serv-prod)
++ [Module de caisse](#caisse)
 + A voir : gestion resssources; encaissement ; mailing
 
 ## INFO
@@ -127,4 +128,11 @@
 + Cliquer sur Créer un nouveau Tags/Catégorie (en haut à droite de la page)
 + Remplir le champs "REF" avec le nom de catégorie souhaité
 + Choisir une couleur
++ Valider
+
+## <a name="caisse"></a> MODULE DE CAISSE
+** A utiliser pour les encaissements sans facture** (i.e un tiers générique est associé à chaque vente)
+Si besoin d'éditer une facture, il faut créer une facture en suivant ce déroulé [Créer une facture](#facture)
++ Choisir le ou les services/produits vendus. 
++ Modifier la quantité et aplliquer une remise si besoin
 + Valider
