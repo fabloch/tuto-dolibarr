@@ -17,9 +17,10 @@
 ## <a name="adherent"></a>GESTION DES ADHERENTS
 
 ### Comment ajouter un nouvel adhérent
-+ Se positionner dans le module Adhérents (cliquer sur l'icone adhérents située en haut à gauche)
+
+1. Se positionner dans le module Adhérents (cliquer sur l'icone adhérents située en haut à gauche)
 + cliquer sur "Nouvel adhérent" dans la liste à gauche
-+ Choisir le type d'adhérent : particulier ou assoc ou pro ou entreprise
++ Choisir le type d'adhérent : particulier, association, professionnel ou entreprise
 + Choisir la nature : physique ou moral
 + Entrer nom, prénom,  adresse, mail, téléphone
 + Cocher "oui" si mineur -18ans. Si oui, cocher oui si attestation parentale fournie
@@ -41,6 +42,10 @@
 + Action complémentaire : choisir aucun pour l'instant  (qd config, possibilité créer écriture comptable direct avec paiement et en plus si besoin de générer automatiquement la facture : attention pas de brouillon, incrémente directement le numéro de facture non modifiable)
 + Valider en cliquant sur "créer cotisation"
 
+### Pour les assoc, pro ou entreprise : créer un tiers 
+Toujours créer un tiers pour les associations, professionnel et entreprise afin de pouvoir éditer des factures
++ Sur la fiche adhérent cliquer sur "*créer un tiers*"
++ Confirmer et valider
 
 ### Comment rechercher un adhérent puis accéder/mofifier fiche
 + Se placer dans le module adhérent
@@ -54,8 +59,8 @@
 
 
 ## <a name="tiers"></a>GESTION DES TIERS
-+ Un tiers peut-être un client/prospect ou un fournisseur. Pour le FabLab les membres qui achètent des prestations (ex : découpe laser) sont donc des clients.
-+ Pour pouvoir éditer une facture, il faut avoir d'abord créer un tiers client que l'on va ensuite reliéer à l'adhérent 
++ Un tiers est un client/prospect ou un fournisseur. Il peut aussi être un adhérent. 
++ Pour pouvoir éditer une facture, il faut d'abord créer un tiers à partir d'un adhérent. On créer un tiers directement, sans le relié à un adhérent, uniquement pour les tiers non adhérent (ex: une assoc qui loue le herlomaton)
 
 ### Créer un tiers à partir de la fiche d'un adhérent
 + Aller sur la fiche de l'adhérent
@@ -77,6 +82,9 @@
 + Cliquer sur le "mode de réglement" adéquate
 
 ## <a name="facture"></a>CREER UNE FACTURE
+
+Il faut avoir [créer un tiers](#tiers) auparavant.
+
 ### Pour une adhésion
 + Créer puis valider le membre si besoin, sinon aller sur sa fiche
 + Dans l'onglet Adhésion/Cotisation, cliquer sur "créer cotisation"
