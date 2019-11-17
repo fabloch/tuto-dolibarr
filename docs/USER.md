@@ -135,6 +135,8 @@
 
 *Si besoin d'éditer une facture et pour tout client pro, il faut **impérativement** créer une facture [voir ici](#facture)*
 
-+ Choisir le ou les services/produits vendus. 
-+ Modifier la quantité et aplliquer une remise si besoin
++ Lancer le module depuis l'onglet caisse de Dolibarr
++ Choisir le ou les services/produits vendus
++ Modifier la quantité si besoin
++ Appliquer la remise si nécessaire
 + Valider
