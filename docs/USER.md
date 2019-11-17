@@ -9,7 +9,7 @@
 + [Ajouter un service/produit](#serv-prod)
 + A voir : gestion resssources; encaissement ; mailing
 
-### Info
+## Info
 + Les champs en bleu sont à remplir obligatoirement.
 + Edition de facture impossible sans associer un tiers à un adhérent
 
