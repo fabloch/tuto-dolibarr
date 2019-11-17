@@ -34,6 +34,7 @@
   + cliquer sur le bouton valider (confirmer par oui dans la boite de dialogue qui s'ouvre)
 
 ### Enregistrer paiement cotisation (1ere adhésion ou renouvellement)
+*A faire uniquement après avoir reçu l'intégralité du paiement.*
 + Aller sur la fiche de l'adhérent puis sur l'onglet Adhésions/Cotisations
 + cliquer sur "créer cotisation"
 + Choisir date de début d'adhésion
