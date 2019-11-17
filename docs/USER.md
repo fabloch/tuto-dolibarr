@@ -88,7 +88,6 @@
 **A utiliser pour les encaissements sans facture** (i.e un tiers générique est alors associé à chaque vente)
 
 *Si besoin d'éditer une facture et pour tout client pro, assoc, entreprise il faut **obligatoirement** créer une facture [voir ici](#facture)*
-
 + Lancer le module depuis l'onglet "PdV de Dolibarr
 + S'identifier avec son login Dolibarr
 + Choisir le compte Crédit Agricole
