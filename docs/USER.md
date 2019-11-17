@@ -18,19 +18,20 @@
 
 ### Comment ajouter un nouvel adhérent
 
-1. Se positionner dans le module Adhérents (cliquer sur l'icone adhérents située en haut à gauche)
-+ cliquer sur "Nouvel adhérent" dans la liste à gauche
-+ Choisir le type d'adhérent : particulier, association, professionnel ou entreprise
-+ Choisir la nature : physique ou moral
-+ Entrer nom, prénom,  adresse, mail, téléphone
-+ Cocher "oui" si mineur -18ans. Si oui, cocher oui si attestation parentale fournie
-+ Cocher les différents choix pour réglement intérieur, autorisation image, attestation assurance et convocation AG...
-+ Si besoin compléter les champs profession et ajouter des infos
-+ cliquer sur le bouton "créer adhérent" : la fiche est créée mais l'adhérent n'est pas encore validé (fiche à l'état de brouillon)
+1. **Se positionner dans le module Adhérents** (cliquer sur l'icone adhérents située en haut à gauche)
+  + cliquer sur "Nouvel adhérent" dans la liste à gauche
+  + Choisir le type d'adhérent : particulier, association, professionnel ou entreprise
+  + Choisir la nature : physique ou moral
+  + Entrer nom, prénom,  adresse, mail, téléphone
+  + Cocher "oui" si mineur -18ans. Si oui, cocher oui si attestation parentale fournie
+  + Cocher les différents choix pour réglement intérieur, autorisation image, attestation assurance et convocation AG...
+  + Si besoin compléter les champs profession et ajouter des infos
+  + cliquer sur le bouton "créer adhérent" : la fiche est créée mais l'adhérent n'est pas encore validé (fiche à l'état de  
+  brouillon)
 
-### Toujours valider un nouvel adhérent après l'avoir ajouter
-+ Après création  de l'adhérent, on arrive sur sa fiche
-+ cliquer sur le bouton valider (confirmer par oui dans la boite de dialogue qui s'ouvre)
+2. **Toujours valider un nouvel adhérent après l'avoir ajouter**
+  + Après création  de l'adhérent, on arrive sur sa fiche
+  + cliquer sur le bouton valider (confirmer par oui dans la boite de dialogue qui s'ouvre)
 
 ### Enregistrer paiement cotisation (1ere adhésion ou renouvellement)
 + Aller sur la fiche de l'adhérent puis sur l'onglet Adhésions/Cotisations
