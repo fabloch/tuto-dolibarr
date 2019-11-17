@@ -53,12 +53,12 @@
         + Choisir le mode de réglement
         + Indiquer la date du paiement
         + Si chèque compléter numero et banque et si virement indiquer le numero
-    + "*Création facture sans paiement*" : pour une adhésion assoc, professionelle ou entreprise. Si besoin d'éditer une facture avant de recevoir le paiement. A réception du paiement il faudra valider la facture.
+    + "*Création facture sans paiement*" : pour une adhésion assoc, professionelle ou entreprise. Si besoin d'éditer une facture avant de recevoir le paiement (*valider avec un manager*). A réception du paiement il faudra valider la facture.
     + "*Créer une facture avec paiement sur compte bancaire ou caisse*" : pour une adhésion assoc, professionelle ou  entreprise, avec paiement reçu.  Va éditer et valider la facture (attention pas de brouillon, incrémente directement le numéro de facture non modifiable). Compléter les infos suivantes : 
         + Choisir compte Crédit Agricole
         + Choisir le mode de réglement
         + Indiquer la date du paiement
-        + Si chèque compléter numero et banque et si virement indiquer le numero
+        + Si chèque compléter numero et banque et, si virement indiquer le numero
 
 + Valider en cliquant sur "créer cotisation"
 
