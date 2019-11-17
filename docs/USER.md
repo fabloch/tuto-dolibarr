@@ -39,7 +39,7 @@
 + Sur la fiche adhérent cliquer sur "*créer un tiers*"
 + Confirmer et valider
 
-### Enregistrer paiement cotisation (1ere adhésion ou renouvellement)
+### Enregistrer le paiement de la cotisation (1ere adhésion ou renouvellement)
 *A faire uniquement après avoir reçu l'intégralité du paiement.*
 + Aller sur la fiche de l'adhérent puis sur l'onglet Adhésions/Cotisations
 + cliquer sur "créer cotisation"
@@ -86,13 +86,11 @@
 
 ## <a name="caisse"></a> MODULE DE CAISSE
 **A utiliser pour les encaissements sans facture** (i.e un tiers générique est alors associé à chaque vente)
-
 *Si besoin d'éditer une facture et pour tout client pro, assoc, entreprise il faut **obligatoirement** créer une facture [voir ici](#facture)*
 + Lancer le module depuis l'onglet "PdV de Dolibarr
 + S'identifier avec son login Dolibarr
 + Choisir le compte Crédit Agricole
 + Choisir le tier "Générique Caisse"
-
 + Choisir le ou les services/produits vendus (taper le préfixe dans le champ "recherche" pour resteindre les choix)
 + Modifier la quantité si besoin
 + Appliquer la remise si nécessaire
