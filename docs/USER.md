@@ -95,21 +95,12 @@
 + Appliquer la remise si nécessaire
 + Cliquer sur "*ajouter cet article*"
 + Cliquer sur le "mode de réglement" adéquate (si espèce, entrer la somme reçu pour pouvoir valider)
-+ Vérifier le résumer et cliquer sur "*valider facture*" (ne veut pas dire que ça cré une facture mais un ticket).
++ Vérifier le résumer et cliquer sur "*valider facture*"
++ Imprimer si besoin le ticket de caisse.
 
 ## <a name="facture"></a>CREER UNE FACTURE
 
 Il faut avoir [créer un tiers](#tiers) auparavant.
-
-### Pour une adhésion
-+ Créer puis valider le membre si besoin, sinon aller sur sa fiche
-+ Dans l'onglet Adhésion/Cotisation, cliquer sur "créer cotisation"
-+ Renseigner date et montant d'adhésion
-+ Au niveau du champs "Action complémentaire à l'enregistrement", sélectionner  "Créer une facture avec paiement sur compte bancaire ou caisse"
-+ Cliquer sur "créer un tiers", un boite de dialogue apparait
-+ Vérifier les infos puis valider
-+ Renseigner le compte, le mode et la date du réglement
-+ Cliquer sur "créer cotisation".
 
 ### Pour une prestation (ou un produit)
 + Nota : il faut avoir créer le tiers préalablement (voir [ici](#tiers))
@@ -123,6 +114,16 @@ Il faut avoir [créer un tiers](#tiers) auparavant.
 + Ajout nouvelle ligne : ajouter le type de prestation (choix menu déroullant) et le montant. Valider en cliquant sur "ajouter". (si le produit/service n'existe pasdans la liste il faut le créer ou si c'ets un service/produit non redondant on peut saisir manuellement le libellé et le prix)
 + On peut alors cliquer sur "valider". Boite de dialogue pour confirmation avec indication numéro de facture (ATTENTION : va alors créer un numéro de facture, on ne peut alors plus supprimer la facture ; pour l'annuler il faudra obligatoirement faire une facture d'avoir)
 + Imprimer la facture
+
+### Pour une adhésion (si oublie au moment de la création de la cotisation)
++ Créer puis valider le membre si besoin, sinon aller sur sa fiche
++ Dans l'onglet Adhésion/Cotisation, cliquer sur "créer cotisation"
++ Renseigner date et montant d'adhésion
++ Au niveau du champs "Action complémentaire à l'enregistrement", sélectionner  "Créer une facture avec paiement sur compte bancaire ou caisse"
++ Cliquer sur "créer un tiers", un boite de dialogue apparait
++ Vérifier les infos puis valider
++ Renseigner le compte, le mode et la date du réglement
++ Cliquer sur "créer cotisation".
 
 ## <a name="export"></a>EXPORTER DES ADHERENTS
 + Aller dans l'onglet "Outils"
