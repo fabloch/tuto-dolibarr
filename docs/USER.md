@@ -9,9 +9,10 @@
 + [Ajouter un service/produit](#serv-prod)
 + A voir : gestion resssources; encaissement ; mailing
 
-## Info
-+ Les champs en bleu sont à remplir obligatoirement.
+## Info importante
++ Toutes factures validés et tout paiement par la caisse validés ne peuvent être annulés (sauf en faisant une facture d'avoir).
 + Edition de facture impossible sans associer un tiers à un adhérent
++ Les champs en bleu sont à remplir obligatoirement.
 
 
 ## <a name="adherent"></a>GESTION DES ADHERENTS
