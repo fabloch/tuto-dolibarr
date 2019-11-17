@@ -131,7 +131,7 @@
 + Valider
 
 ## <a name="caisse"></a> MODULE DE CAISSE
-** A utiliser pour les encaissements sans facture** (i.e un tiers générique est associé à chaque vente)
+** A utiliser pour les encaissements sans facture ** (i.e un tiers générique est associé à chaque vente)
 Si besoin d'éditer une facture, il faut créer une facture en suivant ce déroulé [Créer une facture](#facture)
 + Choisir le ou les services/produits vendus. 
 + Modifier la quantité et aplliquer une remise si besoin
