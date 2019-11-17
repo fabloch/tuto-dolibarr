@@ -60,7 +60,6 @@
         + Choisir le mode de réglement
         + Indiquer la date du paiement
         + Si chèque compléter emetteur, banque et numéro et, si virement indiquer le numéro
-
 + Valider en cliquant sur "créer cotisation"
 
 ### Comment rechercher un adhérent puis accéder/mofifier fiche
@@ -72,7 +71,6 @@
 ### Comment résilier un Adhérent
 + Aller sur la fiche de l'adhérent
 + Cliquer sur résilier (puis valider par oui).
-
 
 ## <a name="tiers"></a>GESTION DES TIERS
 + Un tiers est un client/prospect ou un fournisseur. Il peut aussi être un adhérent. 
