@@ -7,7 +7,7 @@
       *Pour les paiements des particulier. Facture non-nominative.*
 + [Créer une facture et enregistrer le paiement](#facture)
       *On fait une facture nominative pour les clients pro, assoc et entreprises*
-+ [Imprimer/télécharger une facture] (#imprFacture)
++ [Imprimer/télécharger une facture](#imprFacture)
 + [Annuler une facture](#annulation) *réservé au manager*
 + [Exporter des adhérents](#export)
 + [Ajouter un service/produit](#serv-prod)
@@ -45,7 +45,7 @@
 + Sur la fiche adhérent cliquer sur "*créer un tiers*"
 + Confirmer et valider
 
-### Enregistrer le paiement de la cotisation (1ere adhésion ou renouvellement)
+### <a name="cotisation"></a>Enregistrer le paiement de la cotisation (1ere adhésion ou renouvellement)
 *A faire uniquement après avoir reçu l'intégralité du paiement.*
 + Aller sur la fiche de l'adhérent puis sur l'onglet Adhésions/Cotisations
 + cliquer sur "créer cotisation"
@@ -139,13 +139,24 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
 + Cliquer sur "créer un tiers", un boite de dialogue apparait
 + Vérifier les infos puis valider
 + Renseigner le compte, le mode et la date du réglement
-+ Cliquer sur "créer cotisation".
++ Cliquer sur "créer cotisation". [Voir ici](#cotisation)
+
+## <a name="imprFacture"></a> IMPRIMER/TELECHARGER UNE FACTURE
++ Aller sur la fiche de la facture concernée
++ Scroller vers le bas
++ Dans l'encars "Fichier joint" : cliquer sur "*Générer*" (toujours le faire pour être sur d'avoir la dernière version)
++ Si besoin, cliquer sur la loupe pour visualiser la facture
++ Cliquer sur le numéro de facture pour la télécharger
++ Ouvrir le PDF sur l'ordi et l'imprimer
++ Ou joindre le pdf à un mail 
 
 ## <a name="annulation"></a>ANNULER UNE FACTURE
 *A voir avec un manager*
 + Aller sur la fiche de la facture concernée *(ou bien sur la fiche du tiers concerné, aller dans l'onglet "client")*
-+ Cliquer sur "*Créer facture avoir*"
-+ Remplir les champs
++ Cliquer sur "*Créer Facture Avoir*"
++ Sous facture d'avoir, cocher la 1ère case "*Créer l'avoir avec les même lignes que la factures dont il est issu*"
++ Renseigner date, mode de réglement (du remboursement pas du paiement initial) et compte bancaire
++ En note, rensigner date et numéro du chèque ou virement
 
 **NE JAMAIS** classer une facture comme "**ABANDONNEE**" sauf pour "mauvais payeur" (A toujours valider avec la/le comptable)
 
@@ -161,15 +172,6 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
 + Cliquer sur le fichier générer pour le télécharger
 
 *Remarque : le profil "mailing newsletter" est défini pour récupérer les mail des adhérents valides (à jour et non à jour) qui ont acceptés l'envoi de la newsletter*
-
-## <a name="imprFacture"></a> IMPRIMER/TELECHARGER UNE FACTURE
-+ Aller sur la fiche de la facture concernée
-+ Scroller vers le bas
-+ Dans l'encars "fFichier joint" : cliquer sur "*Générer*" (toujours le faire pour être sur d'avoir la dernière version)
-+ Si besoin, cliquer sur la loupe pour visualiser la facture
-+ Cliquer sur le numéro de facture pour la télécharger
-+ Ouvrir le PDF sur l'ordi et l'imprimer
-+ Ou joindre le pdf à un mail 
 
 ## <a name="serv-prod"></a> AJOUTER UN NOUVEAU SERVICE/PRODUIT
 + Aller dans le module "Produits/Services"
