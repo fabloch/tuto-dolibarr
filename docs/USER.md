@@ -7,6 +7,8 @@
 + [Créer une facture](#facture)
 + [Exporter des adhérents](#export)
 + [Ajouter un service/produit](#serv-prod)
++ [Faire un devis](#devis)
++ [Entrer une note de frais](#frais)
 + A voir : gestion resssources; encaissement ; mailing
 
 ## Info importante
@@ -160,12 +162,12 @@ Il faut avoir [créer un tiers](#tiers) auparavant.
 + Choisir une couleur
 + Valider
 
-## ENTRER UNE NOTE DE FRAIS
-+ Aller dans le module GRH
-+ Choisir Nouveau
-+ Remplir les champs puis valider
-
-## FAIRE UN DEVIS
+## <a name="devis"></a>FAIRE UN DEVIS
 + Aller dans le module "Commercial
 + Choisir "nouvelle proposition"
 + remplir les champs puis Valider
+
+## <a name="frais"></a>ENTRER UNE NOTE DE FRAIS
++ Aller dans le module GRH
++ Choisir Nouveau
++ Remplir les champs puis valider
