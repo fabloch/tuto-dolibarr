@@ -2,7 +2,6 @@
 
 # SOMMAIRE
 + [Gestion des adhérents](#adherent) Adhésion et paiement cotisation
-+ [Gestion des tiers](#tiers) *=client (adhérent ou non) qui achètent une prestations*
 + [Module de caisse](#caisse)
       *Pour les paiements des particulier. Facture non-nominative.*
 + [Créer une facture et enregistrer le paiement](#facture)
@@ -13,6 +12,7 @@
 + [Ajouter un service/produit](#serv-prod)
 + [Faire un devis](#devis)
 + [Entrer une note de frais](#frais)
++ [Gestion des tiers](#tiers) *=client (adhérent ou non) qui achètent une prestations*
 + A voir : gestion resssources; encaissement ; mailing
 
 ## Info importante
@@ -63,6 +63,7 @@
 
 
 ///////////
+
 Action complémentaire, cocher soit : 
     + choisir "*aucun*" pour l'instant  
     + "*Création une écriture directe sur le compte bancaire ou caisse*" : pour une adhésion particulier sans facture ; va valider le paiement. Pas besoin de passer par le module caisse. Compléter les infos suivantes : 
@@ -77,6 +78,7 @@ Action complémentaire, cocher soit :
         + Indiquer la date du paiement
         + Si chèque compléter emetteur, banque et numéro et, si virement indiquer le numéro
 + Valider en cliquant sur "créer cotisation"
+
 //////////
 
 ### Comment rechercher un adhérent puis accéder/modifier fiche
@@ -88,16 +90,6 @@ Action complémentaire, cocher soit :
 ### Comment résilier un Adhérent
 + Aller sur la fiche de l'adhérent
 + Cliquer sur résilier (puis valider par oui).
-
-## <a name="tiers"></a>GESTION DES TIERS
-+ Un tiers est un client/prospect ou un fournisseur. Il peut aussi être un adhérent. 
-+ Pour pouvoir éditer une facture, il faut d'abord créer un tiers à partir d'un adhérent. On créer un tiers directement, sans le relié à un adhérent, uniquement pour les tiers non adhérent (ex: une assoc qui loue le herlomaton)
-
-### Créer un tiers à partir de la fiche d'un adhérent
-+ Aller sur la fiche de l'adhérent
-+ Cliquer sur "créer un tiers" (bouton vert en bas de la fiche)
-+ Renseigner/modifier si besoin le nom du tier
-+ Valider le tiers
 
 ## <a name="caisse"></a> MODULE DE CAISSE
 **A utiliser pour les encaissements sans facture nominative** (i.e un tiers particulier générique est alors associé à chaque vente) Possibilité d'éditer un ticket de caisse ou une facture non-nominative.
@@ -139,8 +131,11 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
         + Cliquer sur "*Saisir réglement*"
         + Renseigner date et mode de réglement
         + Renseigner le "compte à créditer" ("**caisse**" pour une réglement en espèces sinon "**compte bancaire CA**" pour tous les autres modes de réglement)
+        + Indiquer la date du paiement
+        + Si chèque compléter emetteur, banque et numéro et, si virement indiquer le numéro
         *(Il est possible d'enregistrer un paiement partiel, et d'enregistrer le solde plus tard. La facture passe du status "impayée" à "commencée".)*
 
+////////////
 
 ### Pour une adhésion (si on a besoin de faire une facture après le paiement de la cotisation)
 + Créer un tier associé au membre et aller sur sa fiche de tiers
@@ -153,6 +148,8 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
 + Vérifier les infos puis valider
 + Si paiement, renseigner le compte, le mode et la date du réglement
 + Si besoin, cliquer sur "créer cotisation". [Voir ici](#cotisation)
+
+////////////////
 
 ## <a name="imprFacture"></a> IMPRIMER/TELECHARGER UNE FACTURE
 + Aller sur la fiche de la facture concernée
@@ -221,3 +218,13 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
 + Aller dans le module GRH
 + Choisir Nouveau
 + Remplir les champs puis valider
+
+## <a name="tiers"></a>GESTION DES TIERS
++ Un tiers est un client/prospect ou un fournisseur. Il peut aussi être un adhérent. 
++ Pour pouvoir éditer une facture, il faut d'abord créer un tiers à partir d'un adhérent. On créer un tiers directement, sans le relié à un adhérent, uniquement pour les tiers non adhérent (ex: une assoc qui loue le herlomaton)
+
+### Créer un tiers à partir de la fiche d'un adhérent
++ Aller sur la fiche de l'adhérent
++ Cliquer sur "créer un tiers" (bouton vert en bas de la fiche)
++ Renseigner/modifier si besoin le nom du tier
++ Valider le tiers
