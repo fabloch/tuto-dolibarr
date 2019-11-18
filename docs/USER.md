@@ -6,7 +6,8 @@
 + [Module de caisse](#caisse)
       *Pour les paiements des particulier. Facture non-nominative.*
 + [Créer une facture et enregistrer le paiement](#facture)
-      *On fait une facture nominative pour les clients pro, assoc et entreprise.*
+      *On fait une facture nominative pour les clients pro, assoc et entreprises*
++ [Imprimer/télécharger une facture] (#imprFacture)
 + [Annuler une facture](#annulation) *réservé au manager*
 + [Exporter des adhérents](#export)
 + [Ajouter un service/produit](#serv-prod)
@@ -15,7 +16,7 @@
 + A voir : gestion resssources; encaissement ; mailing
 
 ## Info importante
-+ Toutes factures validés et tout paiement par la caisse validés ne peuvent être annulés (sauf en faisant une facture d'avoir).
++ Toutes factures validées et toutes ventes enregistrées par la caisse ne peuvent pas être annulées (il faut faire une facture d'avoir).
 + Edition de facture impossible sans associer un tiers à un adhérent
 + Les champs en bleu sont à remplir obligatoirement.
 
@@ -160,6 +161,15 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
 + Cliquer sur le fichier générer pour le télécharger
 
 *Remarque : le profil "mailing newsletter" est défini pour récupérer les mail des adhérents valides (à jour et non à jour) qui ont acceptés l'envoi de la newsletter*
+
+## <a name="imprFacture"></a> IMPRIMER/TELECHARGER UNE FACTURE
++ Aller sur la fiche de la facture concernée
++ Scroller vers le bas
++ Dans l'encars "fFichier joint" : cliquer sur "*Générer*" (toujours le faire pour être sur d'avoir la dernière version)
++ Si besoin, cliquer sur la loupe pour visualiser la facture
++ Cliquer sur le numéro de facture pour la télécharger
++ Ouvrir le PDF sur l'ordi et l'imprimer
++ Ou joindre le pdf à un mail 
 
 ## <a name="serv-prod"></a> AJOUTER UN NOUVEAU SERVICE/PRODUIT
 + Aller dans le module "Produits/Services"
