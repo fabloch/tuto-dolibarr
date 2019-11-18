@@ -2,11 +2,11 @@
 
 # SOMMAIRE
 + [Gestion des adhérents](#adherent)
-+ [Gestion des tiers](#tiers) (*=client (adhérent ou non qui achètent une prestations)
++ [Gestion des tiers](#tiers) *=client (adhérent ou non) qui achètent une prestations*
 + [Module de caisse](#caisse)
       *Pour les paiements des particulier. Facture non-nominative.*
 + [Créer une facture et enregistrer le paiement](#facture)
-      *On fait une facture pour les clients pro, assoc et entreprise. Facture nominative*
+      *On fait une facture nominative pour les clients pro, assoc et entreprise.*
 + [Annuler une facture](#annulation) *réservé au manager*
 + [Exporter des adhérents](#export)
 + [Ajouter un service/produit](#serv-prod)
