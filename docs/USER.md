@@ -1,7 +1,7 @@
 # Manuel pour les utilisateurs
 
 # SOMMAIRE
-+ [Gestion des adhérents](#adherent)
++ [Gestion des adhérents](#adherent) Adhésion et paiement cotisation
 + [Gestion des tiers](#tiers) *=client (adhérent ou non) qui achètent une prestations*
 + [Module de caisse](#caisse)
       *Pour les paiements des particulier. Facture non-nominative.*
