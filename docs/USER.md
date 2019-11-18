@@ -4,8 +4,9 @@
 + [Gestion des adhérents](#adherent)
 + [Gestion des tiers](#tiers)
 + [Module de caisse](#caisse)
+      *Pour les paiements des particulier. Facture non-nominative.*
 + [Créer une facture et enregistrer le paiement](#facture)
-      *On fait une facture pour les clients pro, assoc et entreprise.*
+      *On fait une facture pour les clients pro, assoc et entreprise. Facture nominative*
 + [Annuler une facture](#annulation) *réservé au manager*
 + [Exporter des adhérents](#export)
 + [Ajouter un service/produit](#serv-prod)
