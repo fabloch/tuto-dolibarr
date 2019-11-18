@@ -23,14 +23,15 @@
 
 ## <a name="adherent"></a>GESTION DES ADHERENTS
 
-### Comment ajouter un nouvel adhérent
+### Comment ajouter un nouvel adhérent et enregistrer le paiement de la cotisation (1ere adhésion ou renouvellement)
+*A faire uniquement après avoir reçu l'intégralité du paiement.*
 
 1. **Se positionner dans le module Adhérents** (cliquer sur l'icone adhérents située en haut à gauche)
   + cliquer sur "*Nouvel adhérent*" dans la liste à gauche
   + Choisir le type d'adhérent : particulier, association, professionnel ou entreprise
   + Choisir la nature : physique ou moral
   + Entrer nom, prénom,  adresse, mail, téléphone
-  + Cocher "oui" si mineur -18ans. Si oui, cocher oui si attestation parentale fournie
+  + Cocher "oui" si mineur -18ans. Si oui, cocher "oui" si attestation parentale fournie
   + Cocher les différents choix pour réglement intérieur, autorisation image, attestation assurance et convocation AG...
   + Si besoin compléter les champs profession et ajouter des infos
   + Cliquer sur le bouton "*créer adhérent*" : la fiche est créée mais l'adhérent n'est pas encore validé (fiche à l'état de  
@@ -40,12 +41,11 @@
   + Après création  de l'adhérent, on arrive sur sa fiche au stade brouillon.
   + Cliquer sur le bouton "*Valider*" (confirmer par oui dans la boite de dialogue qui s'ouvre)
 
-### Pour les assoc, pro ou entreprise : créer un tiers 
-**Toujours** créer un tiers pour les associations, professionnel et entreprise afin de pouvoir éditer des factures.
-+ Sur la fiche adhérent cliquer sur "*créer un tiers*"
+3. **Créer un tiers**
++ Sur la fiche de l'adhérent cliquer sur "*créer un tiers*"
 + Confirmer et valider
 
-### <a name="cotisation"></a>Enregistrer le paiement de la cotisation (1ere adhésion ou renouvellement)
+4. <a name="cotisation"></a>**Enregistrer le paiement de la cotisation** (1ere adhésion ou renouvellement)
 *A faire uniquement après avoir reçu l'intégralité du paiement.*
 + Aller sur la fiche de l'adhérent puis sur l'onglet Adhésions/Cotisations
 + cliquer sur "créer cotisation"
@@ -53,7 +53,17 @@
 + Pas besoin d'entrer la date de fin (automatiquement 1 an)
 + Entrer le montant de l'adhésion
 + Si besoin modifier le "libellé"
-+ Action complémentaire, cocher soit : 
++ Laisser sélectionné le choix (y compris pour les particuliers) "*Créer une facture avec paiement sur compte bancaire ou caisse*" 
++Compléter les infos suivantes : 
+        + Choisir compte "Caisse" pour un paiement en liquide, sinon choisir "Compte courant CA"
+        + Choisir le mode de réglement
+        + Indiquer la date du paiement
+        + Si chèque compléter émetteur, banque et numéro et, si virement indiquer le numéro
++ Valider en cliquant sur "créer cotisation"
+
+
+///////////
+Action complémentaire, cocher soit : 
     + choisir "*aucun*" pour l'instant  
     + "*Création une écriture directe sur le compte bancaire ou caisse*" : pour une adhésion particulier sans facture ; va valider le paiement. Pas besoin de passer par le module caisse. Compléter les infos suivantes : 
         + Choisir compte Crédit Agricole
@@ -67,8 +77,9 @@
         + Indiquer la date du paiement
         + Si chèque compléter emetteur, banque et numéro et, si virement indiquer le numéro
 + Valider en cliquant sur "créer cotisation"
+//////////
 
-### Comment rechercher un adhérent puis accéder/mofifier fiche
+### Comment rechercher un adhérent puis accéder/modifier fiche
 + Se placer dans le module adhérent
 + Dans la colonne de gauche choisir "liste" pour voir tous les adhérents ou bien choisir selon les attributs proposés (à jour...)
 + On peut trier les adhérents suivants les attributs proposés (nom, prenom, etc.) ou directement entrer un nom, un prenom... dans les cases situé au desssus du nom des atrributs. Puis cliquer sur la loupe pour valider le tri.
@@ -127,19 +138,21 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
 + Enregistrer le paiement :
         + Cliquer sur "*Saisir réglement*"
         + Renseigner date et mode de réglement
-        + Renseigner le "compte à créditer" ("**caisse**" pour une réglement en espèces sinon "**compte bancaire CA**" pour tous les autres modes de réglement.
+        + Renseigner le "compte à créditer" ("**caisse**" pour une réglement en espèces sinon "**compte bancaire CA**" pour tous les autres modes de réglement)
         *(Il est possible d'enregistrer un paiement partiel, et d'enregistrer le solde plus tard. La facture passe du status "impayée" à "commencée".)*
 
 
-### Pour une adhésion (si oublie au moment de la création de la cotisation)
-+ Créer puis valider le membre si besoin, sinon aller sur sa fiche
+### Pour une adhésion (si on a besoin de faire une facture après le paiement de la cotisation)
++ Créer un tier associé au membre et aller sur sa fiche de tiers
 + Dans l'onglet Adhésion/Cotisation, cliquer sur "créer cotisation"
 + Renseigner date et montant d'adhésion
-+ Au niveau du champs "Action complémentaire à l'enregistrement", sélectionner  "Créer une facture avec paiement sur compte bancaire ou caisse"
++ Au niveau du champs "Action complémentaire à l'enregistrement", sélectionner :
+         + "Créer un facture sans paiement"
+        
 + Cliquer sur "créer un tiers", un boite de dialogue apparait
 + Vérifier les infos puis valider
-+ Renseigner le compte, le mode et la date du réglement
-+ Cliquer sur "créer cotisation". [Voir ici](#cotisation)
++ Si paiement, renseigner le compte, le mode et la date du réglement
++ Si besoin, cliquer sur "créer cotisation". [Voir ici](#cotisation)
 
 ## <a name="imprFacture"></a> IMPRIMER/TELECHARGER UNE FACTURE
 + Aller sur la fiche de la facture concernée
@@ -158,7 +171,10 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
 + Renseigner date, mode de réglement (du remboursement pas du paiement initial) et compte bancaire
 + En note, renseigner date et numéro du chèque ou virement
 + Cliquer sur "*créer brouillon*"
-+ Vérifier puis valider la facture d'avoir.
++ Vérifier puis valider la facture d'avoir
++ Si il y a eu un paiement il faut procéder au remboursement : 
+             + Cliquer sur "*Saisir Remboursement*"
+             + Saisir la date et le mode réglement
 
 **NE JAMAIS** classer une facture comme "**ABANDONNEE**" sauf pour "mauvais payeur" (A toujours valider avec la/le comptable)
 
@@ -193,6 +209,7 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
 + Cliquer sur Créer un nouveau Tags/Catégorie (en haut à droite de la page)
 + Remplir le champs "REF" avec le nom de catégorie souhaité
 + Choisir une couleur
++ Ajouter dans : "Vente caisse" (important sinon on ne voit pas la catégorie dans la caisse)
 + Valider
 
 ## <a name="devis"></a>FAIRE UN DEVIS
