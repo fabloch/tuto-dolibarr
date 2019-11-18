@@ -2,7 +2,7 @@
 
 # SOMMAIRE
 + [Gestion des adhérents](#adherent)
-+ [Gestion des tiers](#tiers)
++ [Gestion des tiers](#tiers) (*=client (adhérent ou non qui achètent une prestations)
 + [Module de caisse](#caisse)
       *Pour les paiements des particulier. Facture non-nominative.*
 + [Créer une facture et enregistrer le paiement](#facture)
