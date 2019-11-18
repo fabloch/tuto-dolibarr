@@ -4,7 +4,9 @@
 + [Gestion des adhérents](#adherent)
 + [Gestion des tiers](#tiers)
 + [Module de caisse](#caisse)
-+ [Créer une facture](#facture)
++ [Créer une facture et enregistrer le paiement](#facture)
+      *On fait une facture pour les clients pro, assoc et entreprise.*
++ [Annuler une facture](#annulation) *réservé au manager*
 + [Exporter des adhérents](#export)
 + [Ajouter un service/produit](#serv-prod)
 + [Faire un devis](#devis)
@@ -102,9 +104,10 @@
 + Cliquer sur "*valider facture*"
 + Imprimer si besoin le ticket de caisse.
 
-## <a name="facture"></a>CREER UNE FACTURE
+## <a name="facture"></a>CREER UNE FACTURE ET ENREGISTRER LE PAIEMENT
 
 Il faut avoir [créer un tiers](#tiers) auparavant.
+Il est possible d'enregistrer un paiement partiel. La facture passe du status "impayée" à "commencée".
 
 ### Pour une prestation (ou un produit)
 + Nota : il faut avoir créer le tiers préalablement (voir [ici](#tiers))
@@ -115,9 +118,16 @@ Il faut avoir [créer un tiers](#tiers) auparavant.
 + Laisser condition réglement "A réception"
 + Cliquer sur "créer brouillon"
 + On accède à la fiche de la facture
-+ Ajout nouvelle ligne : ajouter le type de prestation (choix menu déroullant) et le montant. Valider en cliquant sur "ajouter". (si le produit/service n'existe pasdans la liste il faut le créer ou si c'ets un service/produit non redondant on peut saisir manuellement le libellé et le prix)
-+ On peut alors cliquer sur "valider". Boite de dialogue pour confirmation avec indication numéro de facture (ATTENTION : va alors créer un numéro de facture, on ne peut alors plus supprimer la facture ; pour l'annuler il faudra obligatoirement faire une facture d'avoir)
-+ Imprimer la facture
++ Ajout nouvelle ligne : ajouter le type de prestation (choisir  dans le menu déroulant) et le montant. Indiquer quantité et remise si nécessaire puis valider en cliquant sur "ajouter". (on peut saisir un service/produit n'existant pas manuellement en indiquant le libellé, la quantité et le prix)
+*Pour corriger un prix, il faut d'abord ajouter l'article.*
++ On peut alors cliquer sur "valider". 
++ Confimer la création. (ATTENTION : va alors créer un numéro de facture, on ne peut alors plus supprimer la facture ; pour l'annuler il faudra obligatoirement faire une facture d'avoir)
++ Enregistrer le paiement :
+        + Cliquer sur "*Saisir réglement*"
+        + Renseigner date et mode de réglement
+        + Renseigner le "compte à créditer" ("**caisse**" pour une réglement en espèces sinon "**compte bancaire CA**" pour tous les autres modes de réglement.
+        *(Il est possible d'enregistrer un paiement partiel, et d'enregistrer le solde plus tard. La facture passe du status "impayée" à "commencée".)*
+
 
 ### Pour une adhésion (si oublie au moment de la création de la cotisation)
 + Créer puis valider le membre si besoin, sinon aller sur sa fiche
@@ -128,6 +138,14 @@ Il faut avoir [créer un tiers](#tiers) auparavant.
 + Vérifier les infos puis valider
 + Renseigner le compte, le mode et la date du réglement
 + Cliquer sur "créer cotisation".
+
+## <a name="annulation"></a>ANNULER UNE FACTURE
+*A voir avec un manager*
++ Aller sur la fiche de la facture concernée *(ou bien sur la fiche du tiers concerné, aller dans l'onglet "client")*
++ Cliquer sur "*Créer facture avoir*"
++ Remplir les champs
+
+**NE JAMAIS** classer une facture comme "**ABANDONNEE**" sauf pour "mauvais payeur" (A toujours valider avec la/le comptable)
 
 ## <a name="export"></a>EXPORTER DES ADHERENTS
 + Aller dans l'onglet "Outils"
