@@ -89,9 +89,9 @@
 + Valider le tiers
 
 ## <a name="caisse"></a> MODULE DE CAISSE
-**A utiliser pour les encaissements sans facture** (i.e un tiers générique est alors associé à chaque vente)
-*Si besoin d'éditer une facture et pour tout client pro, assoc, entreprise il faut **obligatoirement** créer une facture [voir ici](#facture)*
-+ Lancer le module depuis l'onglet "PdV de Dolibarr
+**A utiliser pour les encaissements sans facture nominative** (i.e un tiers particulier générique est alors associé à chaque vente) Possibilité d'éditer un ticket de caisse ou une facture non-nominative.
+*Si besoin d'éditer une facture nominative et pour tout client pro, assoc, entreprise il faut **obligatoirement** créer une facture nominative [voir ici](#facture)*
++ Lancer le module TakePOS depuis l'onglet "PdV" de Dolibarr
 + S'identifier avec son login Dolibarr
 + Choisir le compte Crédit Agricole
 + Choisir le tier "Générique Caisse"
@@ -156,7 +156,9 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
 + Cliquer sur "*Créer Facture Avoir*"
 + Sous facture d'avoir, cocher la 1ère case "*Créer l'avoir avec les même lignes que la factures dont il est issu*"
 + Renseigner date, mode de réglement (du remboursement pas du paiement initial) et compte bancaire
-+ En note, rensigner date et numéro du chèque ou virement
++ En note, renseigner date et numéro du chèque ou virement
++ Cliquer sur "*créer brouillon*"
++ Vérifier puis valider la facture d'avoir.
 
 **NE JAMAIS** classer une facture comme "**ABANDONNEE**" sauf pour "mauvais payeur" (A toujours valider avec la/le comptable)
 
