@@ -91,23 +91,24 @@ Action complémentaire, cocher soit :
 + Aller sur la fiche de l'adhérent
 + Cliquer sur résilier (puis valider par oui).
 
-## <a name="caisse"></a> MODULE DE CAISSE
+## <a name="caisse"></a> MODULE DE CAISSE (TakePOS)
 **A utiliser pour les encaissements sans facture nominative** (i.e un tiers particulier générique est alors associé à chaque vente) Possibilité d'éditer un ticket de caisse ou une facture non-nominative.
 *Si besoin d'éditer une facture nominative et pour tout client pro, assoc, entreprise il faut **obligatoirement** créer une facture nominative [voir ici](#facture)*
-+ Lancer le module TakePOS depuis l'onglet "PdV" de Dolibarr
-+ S'identifier avec son login Dolibarr
-+ Choisir le compte Crédit Agricole
-+ Choisir le tier "Générique Caisse"
-+ Choisir le ou les services/produits vendus (taper le préfixe dans le champ "recherche" pour resteindre les choix)
-+ Modifier la quantité si besoin
-+ Appliquer la remise si nécessaire
-+ Cliquer sur "*ajouter cet article*"
-+ Cliquer sur le "mode de réglement" adéquate (si espèce, entrer la somme reçu pour pouvoir valider)
-+ Vérifier le résumer et indiquer en "*note*" : 
-        + Pour un chèque : émetteur, banque et numéro
-        + Hello assoc : numéro
-+ Cliquer sur "*valider facture*"
-+ Imprimer si besoin le ticket de caisse.
++ Lancer le module TakePOS depuis l'onglet " PdV " de Dolibarr
++ Choisir la catégorie du produit/service 
++ Choisir le produits/services vendu ; Si pas dans la liste cliquer sur "Produit/Service non prédéfini" ert entrer un libelé et le prix
++ Modifier la quantité si besoin (cliquer sur "Qté" sur la calculette ; modifier et cliquer sur OK (le bouton "Qté" devient "Ok")
++ Appliquer la remise en % si nécessaire (meme principe que pour les quantités)
+
++ Cliquer " Réglement " 
++ Entrer la somme reçu
++ Cliquer sur le moyen de paiement reçu. **Attention** cet action (= ce click) **va valider définitivement la vente**, elle ne pourra plus être annulée (sauf par un manager)
++ Vérifier que la vente est bien marquée " Payé " (en vert  en haut à gauche sur l'ecran)
++ Impimer le ticket de caisse si besoin
++ Passer à la vente suivant en recommançant ce déroulé à partir de choisir la catégorie de produit/service (pas besoin de cliquer sur le bouton "nouveau").
+* Remarque : 
+          + Le bouton "nouveau" sert si on veut annuler notre saisi (non validée) d'une vente et repartir d'un écran vierge"
+          
 
 ## <a name="facture"></a>CREER UNE FACTURE ET ENREGISTRER LE PAIEMENT
 
