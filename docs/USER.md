@@ -197,7 +197,7 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
 + Cliquer sur Créer un nouveau Tags/Catégorie (en haut à droite de la page)
 + Remplir le champs "REF" avec le nom de catégorie souhaité
 + Choisir une couleur
-+ Ajouter dans : "Vente caisse" (important sinon on ne voit pas la catégorie dans la caisse)
++ Ajouter dans : "Vente caisse" (important si on veut que la catégorie apparaisse dans la caisse TakePos)
 + Valider
 
 ## <a name="devis"></a>FAIRE UN DEVIS
