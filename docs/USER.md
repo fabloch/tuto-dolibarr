@@ -100,7 +100,6 @@ Action complémentaire, cocher soit :
 + Choisir le produits/services vendu ; Si pas dans la liste cliquer sur "Produit/Service non prédéfini" ert entrer un libelé et le prix
 + Modifier la quantité si besoin (cliquer sur "Qté" sur la calculette ; modifier et cliquer sur OK (le bouton "Qté" devient "Ok")
 + Appliquer la remise en % si nécessaire (meme principe que pour les quantités)
-
 + Cliquer " Réglement " 
 + Entrer la somme reçu
 + Cliquer sur le moyen de paiement reçu. **Attention** cet action (= ce click) **va valider définitivement la vente**, elle ne pourra plus être annulée (sauf par un manager)
