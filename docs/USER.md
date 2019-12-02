@@ -46,7 +46,7 @@
 + Sur la fiche de l'adhérent cliquer sur "*créer un tiers*"
 + Confirmer et valider
 
-4. <a name="cotisation"></a>**Enregistrer le paiement de la cotisation** (1ere adhésion ou renouvellement)
+4. <a name="cotisation"></a>**Enregistrer le paiement de la cotisation** (pour un renouvellement passer direct à l'étape 4)
 *A faire uniquement après avoir reçu l'intégralité du paiement.*
 + Aller sur la fiche de l'adhérent puis sur l'onglet Adhésions/Cotisations
 + cliquer sur "créer cotisation"
