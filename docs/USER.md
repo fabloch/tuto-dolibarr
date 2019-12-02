@@ -3,7 +3,8 @@
 # SOMMAIRE
 + [Gestion des adhérents](#adherent) Adhésion et paiement cotisation
 + [Module de caisse](#caisse)
-      *Pour les paiements des particulier. Facture non-nominative.*
+      *Pour l'encaissement des paiements des particulier. Facture non-nominative.*
++ [Cloturer la caisse](#cloture)
 + [Créer une facture et enregistrer le paiement](#facture)
       *On fait une facture nominative pour les clients pro, assoc et entreprises*
 + [Imprimer/télécharger une facture](#imprFacture)
@@ -109,6 +110,15 @@ Action complémentaire, cocher soit :
 * Remarque : 
           + Le bouton "nouveau" sert si on veut annuler notre saisi (non validée) d'une vente et repartir d'un écran vierge"
           
+## <a name="cloture"></a> CLOTURER LA CAISSE
+A faire chaque fin de journée 
++ Aller dans l'onglet "Banque/Caisse" 
++ Puis (sur la gauche) dans POS, choisir "Nouvelle cloture de caisse"
++ Choisir la date
++ Entrer les montants comptablilisés dans la caisse.
++ Vérifier le brouillon
++ Cliquer sur " Enregister et valider " 
++ Imprimer le ticket récapitulatif
 
 ## <a name="facture"></a>CREER UNE FACTURE ET ENREGISTRER LE PAIEMENT
 
