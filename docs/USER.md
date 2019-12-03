@@ -9,11 +9,11 @@
       *On fait une facture nominative pour les clients pro, assoc et entreprises*
 + [Imprimer/télécharger une facture](#imprFacture)
 + [Annuler une facture](#annulation) *réservé au manager*
++ [Gestion des tiers](#tiers) *=client. Relier un adhérent à un tiers pour pouvoir éditer une facture*
 + [Exporter des adhérents](#export)
 + [Ajouter un service/produit](#serv-prod)
 + [Faire un devis](#devis)
 + [Entrer une note de frais](#frais)
-+ [Gestion des tiers](#tiers) *=client (adhérent ou non) qui achètent une prestations*
 + A voir : gestion resssources; encaissement ; mailing
 
 ## Info importante
@@ -126,24 +126,9 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
         + Si chèque compléter emetteur, banque et numéro et, si virement indiquer le numéro
         *(Il est possible d'enregistrer un paiement partiel, et d'enregistrer le solde plus tard. La facture passe du status "impayée" à "commencée".)*
 
-////////////
-
-### Pour une adhésion (si on a besoin de faire une facture après le paiement de la cotisation)
-+ Créer un tier associé au membre et aller sur sa fiche de tiers
-+ Dans l'onglet Adhésion/Cotisation, cliquer sur "créer cotisation"
-+ Renseigner date et montant d'adhésion
-+ Au niveau du champs "Action complémentaire à l'enregistrement", sélectionner :
-         + "Créer un facture sans paiement"
-        
-+ Cliquer sur "créer un tiers", un boite de dialogue apparait
-+ Vérifier les infos puis valider
-+ Si paiement, renseigner le compte, le mode et la date du réglement
-+ Si besoin, cliquer sur "créer cotisation". [Voir ici](#cotisation)
-
-////////////////
 
 ## <a name="imprFacture"></a> IMPRIMER/TELECHARGER UNE FACTURE
-+ Aller sur la fiche de la facture concernée
++ Aller sur la fiche de la facture concernée (ou on peut y accéder par la fiche du tiers)
 + Scroller vers le bas
 + Dans l'encars "Fichier joint" : cliquer sur "*Générer*" (toujours le faire pour être sur d'avoir la dernière version)
 + Si besoin, cliquer sur la loupe pour visualiser la facture
@@ -165,6 +150,17 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
              + Saisir la date et le mode réglement
 
 **NE JAMAIS** classer une facture comme "**ABANDONNEE**" sauf pour "mauvais payeur" (A toujours valider avec la/le comptable)
+
+
+## <a name="tiers"></a>GESTION DES TIERS
++ Un tiers est un client/prospect ou un fournisseur. Il peut aussi être un adhérent. 
++ Pour pouvoir éditer une facture, il faut d'abord créer un tiers à partir d'un adhérent. On créer un tiers directement, sans le relié à un adhérent, uniquement pour les tiers non adhérent (ex: une assoc qui loue le herlomaton)
+
+### Créer un tiers à partir de la fiche d'un adhérent
++ Aller sur la fiche de l'adhérent
++ Cliquer sur "créer un tiers" (bouton vert en bas de la fiche)
++ Renseigner/modifier si besoin le nom du tier
++ Valider le tiers
 
 ## <a name="export"></a>EXPORTER DES ADHERENTS
 + Aller dans l'onglet "Outils"
@@ -209,13 +205,3 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
 + Aller dans le module GRH
 + Choisir Nouveau
 + Remplir les champs puis valider
-
-## <a name="tiers"></a>GESTION DES TIERS
-+ Un tiers est un client/prospect ou un fournisseur. Il peut aussi être un adhérent. 
-+ Pour pouvoir éditer une facture, il faut d'abord créer un tiers à partir d'un adhérent. On créer un tiers directement, sans le relié à un adhérent, uniquement pour les tiers non adhérent (ex: une assoc qui loue le herlomaton)
-
-### Créer un tiers à partir de la fiche d'un adhérent
-+ Aller sur la fiche de l'adhérent
-+ Cliquer sur "créer un tiers" (bouton vert en bas de la fiche)
-+ Renseigner/modifier si besoin le nom du tier
-+ Valider le tiers
