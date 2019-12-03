@@ -73,7 +73,7 @@
 + Aller sur la fiche de l'adhérent
 + Cliquer sur résilier (puis valider par oui).
 
-## <a name="caisse"></a> MODULE DE CAISSE (TakePOS)
+## <a name="caisse"></a> MODULE DE CAISSE (TakePOS) A utiliser avec l'ordinateur de caisse uniquemement
 **A utiliser pour les encaissements sans facture nominative** (i.e un tiers particulier générique est alors associé à chaque vente) Possibilité d'éditer un ticket de caisse ou une facture non-nominative.
 *Si besoin d'éditer une facture nominative et pour tout client pro, assoc, entreprise il faut **obligatoirement** créer une facture nominative [voir ici](#facture)*
 + Lancer le module TakePOS depuis l'onglet " PdV " de Dolibarr
