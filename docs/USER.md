@@ -21,17 +21,19 @@
 ## Info importante
 + Toutes factures validées et toutes ventes enregistrées par la caisse ne peuvent pas être annulées (il faut faire une facture d'avoir).
 + A chaque vente/facture validée doit correspondre un paiement du montant exact de la vente/facture.
-          exemple : _ je fais une vente de 20€. je reçois un chèque de 20€ : c'est OK
-                    _ je fais une vente de 20€.je reçois 10€ en espèce et un chèque 10€  : c'est OK
-                    _ je fais deux ventes de 20€ au même client et je reçois un chèque global de 40€. C'est pas bon. Je dois          
-                      regrouper les deux ventes (=faire une seule vente, faire une seule facture)                
+       
+       exemple : _ je fais une vente de 20€. je reçois un chèque de 20€ : c'est OK
+                 _ je fais une vente de 20€.je reçois 10€ en espèce et un chèque 10€  : c'est OK
+                 _ je fais deux ventes de 20€ au même client et je reçois un chèque global de 40€. C'est pas bon. Je dois          
+                      regrouper les deux ventes (=faire une seule vente, faire une seule facture) 
+                      
 + Edition de facture impossible sans associer un tiers à un adhérent
 + Les champs en bleu sont à remplir obligatoirement.
 
 
 ## <a name="adherent"></a>GESTION DES ADHERENTS
 
-### Comment ajouter un nouvel adhérent et enregistrer le paiement de la cotisation (1ere adhésion ou renouvellement)
+### Comment ajouter un nouvel adhérent et enregistrer le paiement de la cotisation (pour un renouvellement passer à l'étape 4)
 *A faire uniquement après avoir reçu l'intégralité du paiement.*
 
 1. **Se positionner dans le module Adhérents** (cliquer sur l'icone adhérents située en haut à gauche)
@@ -53,10 +55,9 @@
 + Sur la fiche de l'adhérent cliquer sur "*créer un tiers*"
 + Confirmer et valider
 
-4. <a name="cotisation"></a>**Valider la cotisation**  (nouvelle adhésion ou renouvellement)
+4. **Valider la cotisation**  (nouvelle adhésion ou renouvellement)
 
-**A faire uniquement après avoir reçu l'intégralité du paiement.**
-
+     **A faire uniquement après avoir reçu l'intégralité du paiement.**
 + Aller sur la fiche de l'adhérent puis sur l'onglet Adhésions/Cotisations
 + cliquer sur "créer cotisation"
 + Choisir date de début d'adhésion (par défaut pour un renouvellement c'est le lendemain de la date de fin d'adhésion)
@@ -68,11 +69,9 @@
 
 5. <a name="cotisation2"></a>**Enregistrer le paiement de la cotisation**  (nouvelle adhésion ou renouvellement)
 
-
   + Pour les particuliers, aller dans la caise "Pdv" et choisir choisir le nombre de "cotisations particuliers" vendues.
     Si le client achète en même temps un ou des produits, par exemple un pack 3D, l'ajouter à la vente. 
-    
-    
+     
   + Pour les professionelles, associations et entreprises, il faut passer par le module facture. Créer une facture et ajouter 
   le type de cotisations vendues (pro/assoc ou entreprise). Ajouter si besoin des produits complémentaires. Valider la facture    
   puis enregistrer le paiement (se reporter à comment faire une facture) 
@@ -98,22 +97,7 @@ Action complémentaire, cocher soit :
         + Choisir le mode de réglement
          + Indiquer la date du paiement
          + Si chèque compléter emetteur, banque et numéro et, si virement indiquer le numéro
-         
-         
-         ### Pour une adhésion (si on a besoin de faire une facture après le paiement de la cotisation)
- + Créer un tier associé au membre et aller sur sa fiche de tiers
-+ Dans l'onglet Adhésion/Cotisation, cliquer sur "créer cotisation"
-+ Renseigner date et montant d'adhésion
-+ Au niveau du champs "Action complémentaire à l'enregistrement", sélectionner :
-         + "Créer un facture sans paiement"
-        
-+ Cliquer sur "créer un tiers", un boite de dialogue apparait
-+ Vérifier les infos puis valider
- + Si paiement, renseigner le compte, le mode et la date du réglement
- + Si besoin, cliquer sur "créer cotisation". [Voir ici](#cotisation)
- 
- 
- 
+  
  
 ### Comment rechercher un adhérent puis accéder/modifier fiche
 + Se placer dans le module adhérent
@@ -142,7 +126,7 @@ Action complémentaire, cocher soit :
 * Remarque : 
           + Le bouton "nouveau" sert si on veut annuler notre saisi (non validée) d'une vente et repartir d'un écran vierge"
           
-## <a name="cloture"></a> CLOTURER LA CAISSE
+## <a name="cloture"></a> CLOTURER LA CAISSE (en développement)
 A faire chaque fin de journée 
 + Aller dans l'onglet "Banque/Caisse" 
 + Puis (sur la gauche) dans POS, choisir "Nouvelle cloture de caisse"
@@ -173,10 +157,12 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
 + Enregistrer le paiement :
         + Cliquer sur "*Saisir réglement*"
         + Renseigner date et mode de réglement
-        + Renseigner le "compte à créditer" ("**caisse**" pour une réglement en espèces sinon "**compte bancaire CA**" pour tous les autres modes de réglement)
+        + Renseigner le "compte à créditer" ("**caisse**" pour une réglement en espèces sinon "**Crédit Agricole**" pour tous 
+        les autres modes de réglement)
         + Indiquer la date du paiement
         + Si chèque compléter emetteur, banque et numéro et, si virement indiquer le numéro
-        *(Il est possible d'enregistrer un paiement partiel, et d'enregistrer le solde plus tard. La facture passe du status "impayée" à "commencée".)*
+        *(Il est possible d'enregistrer un paiement partiel, et d'enregistrer le solde plus tard. La facture passe du status 
+        "impayée" à "commencée".)*
 
 
 ## <a name="imprFacture"></a> IMPRIMER/TELECHARGER UNE FACTURE
