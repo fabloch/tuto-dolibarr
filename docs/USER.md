@@ -1,12 +1,14 @@
 # Manuel pour les utilisateurs
 
 # SOMMAIRE
-+ [Gestion des adhérents](#adherent) Adhésion et paiement cotisation
++ [Gestion des adhérents](#adherent) Création et validation de l'adhésion
 + [Module de caisse](#caisse)
-      *Pour l'encaissement des paiements des particulier. Facture non-nominative.*
+      *Pour l'encaissement des paiements des particulier. Facture non-nominative. Y compris l'encaissement des cotisations 
+      particuliers*
 + [Cloturer la caisse](#cloture)
 + [Créer une facture et enregistrer le paiement](#facture)
-      *On fait une facture nominative pour les clients pro, assoc et entreprises*
+      *On fait une facture nominative pour les clients pro, assoc et entreprises, y compris l'encaissement des cotisations 
+      pro/assoc/entr**
 + [Imprimer/télécharger une facture](#imprFacture)
 + [Annuler une facture](#annulation) *réservé au manager*
 + [Gestion des tiers](#tiers) *=client. Relier un adhérent à un tiers pour pouvoir éditer une facture*
@@ -52,7 +54,9 @@
 + Confirmer et valider
 
 4. <a name="cotisation"></a>**Valider la cotisation**  (nouvelle adhésion ou renouvellement)
+
 **A faire uniquement après avoir reçu l'intégralité du paiement.**
+
 + Aller sur la fiche de l'adhérent puis sur l'onglet Adhésions/Cotisations
 + cliquer sur "créer cotisation"
 + Choisir date de début d'adhésion (par défaut pour un renouvellement c'est le lendemain de la date de fin d'adhésion)
@@ -62,12 +66,20 @@
 + "Action complémentaire" : laisser sélectionné le choix  " *Aucun* "
 + Cliquer sur "*créer cotisation*"
 
-4. <a name="cotisation2"></a>**Enregistrer le paiement cotisation**  (nouvelle adhésion ou renouvellement)
+5. <a name="cotisation2"></a>**Enregistrer le paiement de la cotisation**  (nouvelle adhésion ou renouvellement)
 
 
+  + Pour les particuliers, aller dans la caise "Pdv" et choisir choisir le nombre de "cotisations particuliers" vendues.
+    Si le client achète en même temps un ou des produits, par exemple un pack 3D, l'ajouter à la vente. 
+    
+    
+  + Pour les professionelles, associations et entreprises, il faut passer par le module facture. Créer une facture et ajouter 
+  le type de cotisations vendues (pro/assoc ou entreprise). Ajouter si besoin des produits complémentaires. Valider la facture    
+  puis enregistrer le paiement (se reporter à comment faire une facture) 
+          + *attention : Choisir compte "Caisse liquide" pour un paiement en liquide, sinon choisir "Crédit agricole"*
 
 +Compléter les infos suivantes : 
-        + Choisir compte "Caisse liquide" pour un paiement en liquide, sinon choisir "Compte courant CA"
+        + Choisir compte "Caisse liquide" pour un paiement en liquide, sinon choisir "Crédit agricole"
         + Choisir le mode de réglement
         + Indiquer la date du paiement
         + (option à voir avec Manager) Si chèque compléter émetteur, banque et numéro et, si virement indiquer le numéro 
@@ -76,13 +88,13 @@
 Action complémentaire, cocher soit : 
      + choisir "*aucun*" pour l'instant  
      + "*Création une écriture directe sur le compte bancaire ou caisse*" : pour une adhésion particulier sans facture ; va valider le paiement. Pas besoin de passer par le module caisse. Compléter les infos suivantes : 
-        + Choisir compte Crédit Agricole
+        + Choisir compte "Crédit Agricole"
         + Choisir le mode de réglement
         + Indiquer la date du paiement
         + Si chèque compléter numero et banque et si virement indiquer le numero
     + "*Création facture sans paiement*" : pour une adhésion assoc, professionelle ou entreprise. Si besoin d'éditer une facture avant de recevoir le paiement (*valider avec un manager*). A réception du paiement il faudra valider la facture.
     + "*Créer une facture avec paiement sur compte bancaire ou caisse*" : pour une adhésion assoc, professionelle ou  entreprise, avec paiement reçu.  Va éditer et valider la facture (attention pas de brouillon, incrémente directement le numéro de facture non modifiable). Compléter les infos suivantes : 
-        + Choisir compte Crédit Agricole
+        + Choisir compte "Crédit Agricole"
         + Choisir le mode de réglement
          + Indiquer la date du paiement
          + Si chèque compléter emetteur, banque et numéro et, si virement indiquer le numéro
