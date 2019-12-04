@@ -24,9 +24,9 @@
        
        exemple : _ je fais une vente de 20€. je reçois un chèque de 20€ : c'est OK
                  _ je fais une vente de 20€.je reçois 10€ en espèce et un chèque 10€  : c'est OK
-                 _ je fais deux ventes de 20€ au même client et je reçois un chèque global de 40€. C'est pas bon. Je dois          
-                      regrouper les deux ventes (=faire une seule vente, faire une seule facture) 
-                      
+                 _ je fais deux ventes de 20€ au même client et je reçois un chèque global de 40€.
+                   C'est pas bon. Je dois regrouper les deux ventes (=faire une seule vente, 
+                   faire une seule facture) 
 + Edition de facture impossible sans associer un tiers à un adhérent
 + Les champs en bleu sont à remplir obligatoirement.
 
@@ -114,7 +114,7 @@ Action complémentaire, cocher soit :
 *Si besoin d'éditer une facture nominative et pour tout client pro, assoc, entreprise il faut **obligatoirement** créer une facture nominative [voir ici](#facture)*
 + Lancer le module TakePOS depuis l'onglet " PdV " de Dolibarr
 + Choisir la catégorie du produit/service 
-+ Choisir le produits/services vendu ; Si pas dans la liste cliquer sur "Produit/Service non prédéfini" ert entrer un libelé et le prix
++ Choisir le produit/service vendu. Si pas dans la liste cliquer sur "Produit/Service non prédéfini" ert entrer un libellé et le prix
 + Modifier la quantité si besoin (cliquer sur "Qté" sur la calculette ; modifier et cliquer sur OK (le bouton "Qté" devient "Ok")
 + Appliquer la remise en % si nécessaire (meme principe que pour les quantités)
 + Cliquer " Réglement " 
