@@ -110,8 +110,12 @@ Action complémentaire, cocher soit :
 + Cliquer sur résilier (puis valider par oui).
 
 ## <a name="caisse"></a> MODULE DE CAISSE (TakePOS) A utiliser avec l'ordinateur de caisse uniquemement
+
 **A utiliser pour les encaissements sans facture nominative** (i.e un tiers particulier générique est alors associé à chaque vente) Possibilité d'éditer un ticket de caisse ou une facture non-nominative.
+
 *Si besoin d'éditer une facture nominative et pour tout client pro, assoc, entreprise il faut **obligatoirement** créer une facture nominative [voir ici](#facture)*
+
+
 + Lancer le module TakePOS depuis l'onglet " PdV " de Dolibarr
 + Choisir la catégorie du produit/service 
 + Choisir le produit/service vendu. Si pas dans la liste cliquer sur "Produit/Service non prédéfini" ert entrer un libellé et le prix
@@ -123,9 +127,13 @@ Action complémentaire, cocher soit :
 + Vérifier que la vente est bien marquée " Payé " (en vert  en haut à gauche sur l'ecran)
 + Impimer le ticket de caisse si besoin
 + Passer à la vente suivant en recommançant ce déroulé à partir de choisir la catégorie de produit/service (pas besoin de cliquer sur le bouton "nouveau").
+
+Si plusieurs moyens de paiment (ex : 10 € espèce + 10€ chèq pour une vente de 20€) sont utilisé pour régler une même vente,  alors il faut saisir plusieurs réglement (ie : on clic sur "Réglement", on indique le montant reçu en espèce puis on clique sur espèce. Il reste donc 10€ à régler. A nouveau on clic sur "Réglement", on indique le montant reçu en chèquepuis on clique sur "chèque")
+
 * Remarque : 
           + Le bouton "nouveau" sert si on veut annuler notre saisi (non validée) d'une vente et repartir d'un écran vierge"
-          
+
+
 ## <a name="cloture"></a> CLOTURER LA CAISSE (en développement)
 A faire chaque fin de journée 
 + Aller dans l'onglet "Banque/Caisse" 
@@ -139,10 +147,7 @@ A faire chaque fin de journée
 ## <a name="facture"></a>CREER UNE FACTURE ET ENREGISTRER LE PAIEMENT
 
 Il faut avoir [créer un tiers](#tiers) auparavant.
-Il est possible d'enregistrer un paiement partiel. La facture passe du status "impayée" à "commencée".
 
-### Pour une prestation (ou un produit)
-+ Nota : il faut avoir créer le tiers préalablement (voir [ici](#tiers))
 + Aller dans le module "facturation/paiement" et choisir "nouvelle facture "
 + **Ou** Aller dans le module "tiers", aller sur la fiche du tiers, cliquer sur l'onglet "client" puis cliquer sur le bouton "créer une facture"
 + Choisir le nom du client (tiers)
@@ -163,6 +168,10 @@ Il est possible d'enregistrer un paiement partiel. La facture passe du status "i
         + Si chèque compléter emetteur, banque et numéro et, si virement indiquer le numéro
         *(Il est possible d'enregistrer un paiement partiel, et d'enregistrer le solde plus tard. La facture passe du status 
         "impayée" à "commencée".)*
+        
+Si plusieurs moyens de paiment (ex : 10 € espèce + 10€ chèq pour un facture de 20€) sont utilisé pour régler une même facture,  alors il faut saisir plusieurs réglement (ie : on clic sur "saisir un réglement", on indique le 1er mode de paiement, espèce et le montant 10€ puis on valide. Ensuite retour à la fiche de la facture, à nouveau on clic sur "saisir un réglement", on indique le 2er mode de paiement, le montant et on valide) 
+
+Il est possible d'enregistrer un paiement partiel. La facture passe du status "impayée" à "commencée".
 
 
 ## <a name="imprFacture"></a> IMPRIMER/TELECHARGER UNE FACTURE
