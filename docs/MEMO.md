@@ -1,6 +1,6 @@
 # MEMO
 
-###Caisse Pdv pour l'encaissement des particuliers (pas de facture nominative)
+### Caisse Pdv pour l'encaissement des particuliers (pas de facture nominative)
 
 - Ajouter les produits vendus
 - saisir le réglement (si plusieurs moyens de paiement, saisir plusieurs réglements du montant correspondant à chaque moyen de paiement).
@@ -8,7 +8,7 @@
 - Vérifier que l'état de la vente est passé à payé (en vert)
 - Si besoin imprimer le ticket de caisse
 
-###Module facture pour l'encaissement des pro/assoc et entreprise (facture nominative)
+### Module facture pour l'encaissement des pro/assoc et entreprise (facture nominative)
 
 - Créer une facture au nom du client (= du tiers)
 - Ajouter les produits
@@ -36,4 +36,4 @@
 - Pour les particuliers, utiliser le module de caisse Pdv en choississant le produit "cotisation particulier"
 - Pour les pro/assoc et entreprise, établisser une facture nominative avec le produit "cotisation pro/assoc" ou "cotisation entreprise"
 
-R: il est possible d'enregistrer sur la même vente ou facture, le paiement de plusieurs cotis ou de cotisation(s)+produit(s), dans le cas ou il y a un seul paiment.
+R: il est possible d'enregistrer sur la même vente ou facture, le paiement de plusieurs cotis ou de cotisation(s)+produit(s), dans le cas où il y a un seul paiement pour le total.
