@@ -23,7 +23,7 @@
 
 ### Enregistrement des cotisations (2 étapes)
 
-1. Valider la cotisation
+1. **Valider la cotisation**
 
 - Créer un nouveau membre si il n'existe pas et le valider. Si c'est un renouvellement aller sur la fiche de l'adhérent
 - Sur la fiche adhérent, aller dans l'onglet Adhésion/Cotisation et cliquer sur "créer cotisation"
@@ -31,7 +31,7 @@
 - Laisser "aucun" coché
 - Cliquer sur "créer cotisation"
 
-2. Enregistrer le paiement
+2. **Enregistrer le paiement**
 
 - Pour les particuliers, utiliser le module de caisse Pdv en choississant le produit "cotisation particulier"
 - Pour les pro/assoc et entreprise, établisser une facture nominative avec le produit "cotisation pro/assoc" ou "cotisation entreprise"
