@@ -148,18 +148,22 @@ Il faut avoir [créer un tiers](#tiers) auparavant.
 + On peut alors cliquer sur "valider". 
 + Confimer la création. (ATTENTION : va alors créer un numéro de facture, on ne peut alors plus supprimer la facture ; pour l'annuler il faudra obligatoirement faire une facture d'avoir)
 + Enregistrer le paiement :
-        + Cliquer sur "*Saisir réglement*"
-        + Renseigner date et mode de réglement
-        + Renseigner le "compte à créditer" ("**caisse**" pour une réglement en espèces sinon "**Crédit Agricole**" pour tous 
-        les autres modes de réglement)
-        + Indiquer la date du paiement
-        + Si chèque compléter emetteur, banque et numéro et, si virement indiquer le numéro
-        *(Il est possible d'enregistrer un paiement partiel, et d'enregistrer le solde plus tard. La facture passe du status 
-        "impayée" à "commencée".)*
+
+     + Cliquer sur "*Saisir réglement*"
+     + Renseigner date et mode de réglement
+     + Renseigner le "compte à créditer" ("**caisse**" pour une réglement en espèces sinon "**Crédit Agricole**" pour tous 
+     les autres modes de réglement)
+     + Indiquer la date du paiement
+     + Option : si chèque compléter emetteur, banque et numéro et, si virement indiquer le numéro
+     + Saisir le montant reçu (si plusieurs factures en attente, vérifier la concordance entre le paiement reçu)
+     + Cliquer sur " Payer " (*laisser cocher la case au-dessus*)
+     + Confimer en validant
+
+
         
 Si plusieurs moyens de paiment (ex : 10 € espèce + 10€ chèq pour un facture de 20€) sont utilisé pour régler une même facture,  alors il faut saisir plusieurs réglement (ie : on clic sur "saisir un réglement", on indique le 1er mode de paiement, espèce et le montant 10€ puis on valide. Ensuite retour à la fiche de la facture, à nouveau on clic sur "saisir un réglement", on indique le 2er mode de paiement, le montant et on valide) 
 
-Il est possible d'enregistrer un paiement partiel. La facture passe du status "impayée" à "commencée".
+Il est possible d'enregistrer un paiement partiel. La facture passe alors du status "impayée" à "commencée".
 
 
 ## <a name="imprFacture"></a> IMPRIMER/TELECHARGER UNE FACTURE
