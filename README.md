@@ -1,6 +1,6 @@
 # Dolibarr - FABrique du loch
 
-Pour s'entrainer :[mode demo ici](demo.dolibarr.org)
+**Pour s'entrainer : [mode demo ici](https://demo.dolibarr.org)**
 
 ### [MEMO](/docs/MEMO.md)
 
