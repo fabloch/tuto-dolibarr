@@ -177,10 +177,12 @@ Il est possible d'enregistrer un paiement partiel. La facture passe alors du sta
 
 ## <a name="annulation"></a>ANNULER UNE FACTURE
 *A voir avec un manager*
+### Dont le paiement n'a pas encore remis en banque 
+s'applique donc pour les chèques et les espèces qui n'ont pas encore été déposés à la banque
 + Aller sur la fiche de la facture concernée *(ou bien sur la fiche du tiers concerné, aller dans l'onglet "client")*
 + Cliquer sur "*Créer Facture Avoir*"
 + Sous facture d'avoir, cocher la 1ère case "*Créer l'avoir avec les même lignes que la factures dont il est issu*"
-+ Renseigner date, mode de réglement (du remboursement pas du paiement initial) et compte bancaire
++ Renseigner la date
 + En note, renseigner date et numéro du chèque ou virement
 + Cliquer sur "*créer brouillon*"
 + Vérifier puis valider la facture d'avoir
