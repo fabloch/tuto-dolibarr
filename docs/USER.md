@@ -13,7 +13,7 @@
 + [Annuler une facture](#annulation) *réservé au manager*
 + [Gestion des tiers](#tiers) *=client. Relier un adhérent à un tiers pour pouvoir éditer une facture*
 + [Exporter des adhérents](#export)
-+ [Ajouter un service/produit](#serv-prod) A faire si on sait qu'on va en vendre plus d'un exemplaire
++ [Ajouter un service/produit](#serv-prod) *A faire si on sait qu'on va en vendre plus plusieurs exemplaires*
 + [Faire un devis](#devis)
 + [Entrer une note de frais](#frais)
 + A voir : gestion resssources; encaissement ; mailing
@@ -177,7 +177,7 @@ Il est possible d'enregistrer un paiement partiel. La facture passe alors du sta
 
 ## <a name="annulation"></a>ANNULER UNE FACTURE
 *A voir avec un manager*
-### Dont le paiement n'a pas encore remis en banque (facture pas encore au statut "payée")
+### Dont le paiement n'a pas encore remis en banque
 * S'applique donc pour les chèques et les espèces qui n'ont pas encore été déposés à la banque*
 
 + Aller sur la fiche de la facture concernée *(ou bien sur la fiche du tiers concerné, aller dans l'onglet "client")*
@@ -189,12 +189,12 @@ Il est possible d'enregistrer un paiement partiel. La facture passe alors du sta
 + Cliquer sur le bouton "MARQUER COMME CREDIT DISPONIBLE" 
 + La facture d'avoir passe au statut "Facture Avoir remboursée ou marqué en crédit disponible"
 + Confirmer par oui
-+ Retourner sur la facture d'origine
++ Retourner sur la facture d'origine (si si besoin la rouvrir et supprimer le paiement)
 + Dans "remises", sélectionner l'avoir précédement créer et cliquer sur "appliquer"
 + Cliquer sur le bouton "CLASSER PAYEE", puis confirmer
 + La facture passe au statut "payée"
 
-### Dont le paiement a été remis en banque (toutes les factures dont le statut est "payée)
+### Dont le paiement a été remis en banque 
 *S'applique pour les paiements par espèces qui ont été déposés à la banque, chèques encaissés, virements, paiements par carte dont stripe, helloAsso...*
 
 + Aller sur la fiche de la facture concernée *(ou bien sur la fiche du tiers concerné, aller dans l'onglet "client")*
@@ -209,7 +209,8 @@ Il est possible d'enregistrer un paiement partiel. La facture passe alors du sta
              + Saisir la date et le mode réglement, le compte à débiter et préciser les infos du chèque/virement
              + Inscrire le montant et cliquer sur "REMBOURSER", puis "Valider"
              + La facture d'avoir passe au statut "Facture Avoir remboursée ou marqué en crédit disponible"
-             + Il n'y a rien a faire sur la facture d'origine (elle était déjà payée, la facture d'avoir avec le remboursement  annule le tout)
+             + Il n'y a rien a faire sur la facture d'origine si elle était déjà au statut payée (la facture d'avoir avec le remboursement annule le tout)
+             + Si la facture n'est pas au statut payée valider le paiement(la facture d'avoir se charge de l'annuler). 
 
 **NE JAMAIS** classer une facture comme "**ABANDONNEE**" sauf pour "mauvais payeur" (A toujours valider avec la/le comptable)
 
