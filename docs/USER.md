@@ -163,7 +163,7 @@ Il faut avoir [créer un tiers](#tiers) auparavant.
         
 Si plusieurs moyens de paiment (ex : 10 € espèce + 10€ chèq pour un facture de 20€) sont utilisé pour régler une même facture,  alors il faut saisir plusieurs réglement (ie : on clic sur "saisir un réglement", on indique le 1er mode de paiement, espèce et le montant 10€ puis on valide. Ensuite retour à la fiche de la facture, à nouveau on clic sur "saisir un réglement", on indique le 2er mode de paiement, le montant et on valide) 
 
-Il est possible d'enregistrer un paiement partiel. La facture passe alors du status "impayée" à "commencée".
+Il est possible d'enregistrer un paiement partiel. La facture passe alors du statut "impayée" à "commencée".
 
 
 ## <a name="imprFacture"></a> IMPRIMER/TELECHARGER UNE FACTURE
@@ -177,18 +177,39 @@ Il est possible d'enregistrer un paiement partiel. La facture passe alors du sta
 
 ## <a name="annulation"></a>ANNULER UNE FACTURE
 *A voir avec un manager*
-### Dont le paiement n'a pas encore remis en banque 
-s'applique donc pour les chèques et les espèces qui n'ont pas encore été déposés à la banque
+### Dont le paiement n'a pas encore remis en banque (facture pas encore au statut "payée")
+* S'applique donc pour les chèques et les espèces qui n'ont pas encore été déposés à la banque*
+
 + Aller sur la fiche de la facture concernée *(ou bien sur la fiche du tiers concerné, aller dans l'onglet "client")*
 + Cliquer sur "*Créer Facture Avoir*"
 + Sous facture d'avoir, cocher la 1ère case "*Créer l'avoir avec les même lignes que la factures dont il est issu*"
 + Renseigner la date
++ Cliquer sur "*créer brouillon*"
++ Vérifier puis valider la facture d'avoir
++ Cliquer sur le bouton "MARQUER COMME CREDIT DISPONIBLE" 
++ La facture d'avoir passe au statut "Facture Avoir remboursée ou marqué en crédit disponible"
++ Confirmer par oui
++ Retourner sur la facture d'origine
++ Dans "remises", sélectionner l'avoir précédement créer et cliquer sur "appliquer"
++ Cliquer sur le bouton "CLASSER PAYEE", puis confirmer
++ La facture passe au statut "payée"
+
+### Dont le paiement a été remis en banque (toutes les factures dont le statut est "payée)
+*S'applique pour les paiements par espèces qui ont été déposés à la banque, chèques encaissés, virements, paiements par carte dont stripe, helloAsso...*
+
++ Aller sur la fiche de la facture concernée *(ou bien sur la fiche du tiers concerné, aller dans l'onglet "client")*
++ Cliquer sur "*Créer Facture Avoir*"
++ Sous facture d'avoir, cocher la 1ère case "*Créer l'avoir avec les même lignes que la factures dont il est issu*"
++ Renseigner la date, le mode de réglement et le compte bancaire
 + En note, renseigner date et numéro du chèque ou virement
 + Cliquer sur "*créer brouillon*"
 + Vérifier puis valider la facture d'avoir
-+ Si il y a eu un paiement il faut procéder au remboursement : 
++ Lorsque que le remboursement est fait : 
              + Cliquer sur "*Saisir Remboursement*"
-             + Saisir la date et le mode réglement
+             + Saisir la date et le mode réglement, le compte à débiter et préciser les infos du chèque/virement
+             + Inscrire le montant et cliquer sur "REMBOURSER", puis "Valider"
+             + La facture d'avoir passe au statut "Facture Avoir remboursée ou marqué en crédit disponible"
+             + Il n'y a rien a faire sur la facture d'origine (elle était déjà payée, la facture d'avoir avec le remboursement  annule le tout)
 
 **NE JAMAIS** classer une facture comme "**ABANDONNEE**" sauf pour "mauvais payeur" (A toujours valider avec la/le comptable)
 
