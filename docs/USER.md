@@ -13,7 +13,7 @@
 + [Annuler une facture](#annulation) *réservé au manager*
 + [Gestion des tiers](#tiers) *=client. Relier un adhérent à un tiers pour pouvoir éditer une facture*
 + [Exporter des adhérents](#export)
-+ [Ajouter un service/produit](#serv-prod)
++ [Ajouter un service/produit](#serv-prod) A faire si on sait qu'on va en vendre plus d'un exemplaire
 + [Faire un devis](#devis)
 + [Entrer une note de frais](#frais)
 + A voir : gestion resssources; encaissement ; mailing
